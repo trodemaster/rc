@@ -26,13 +26,8 @@ import (
 // downCmd represents the down command
 var downCmd = &cobra.Command{
 	Use:   "down",
-	Short: "A brief description of your command",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "Volume down",
+	Long:  `Sets the volume to a lower level on the speakers`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("down called")
 		client := &http.Client{}
