@@ -37,11 +37,11 @@ to quickly create a Cobra application.`,
 		fmt.Println("hdmi1 called")
 		client := &http.Client{}
 
-		body := []byte("{\n  \"frequency\": \"38028\",\n  \"preamble\": \"\",\n  \"irCode\": \"343,172,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,65,21,22,21,1673,343,86,21,3732\",\n  \"repeat\": \"1\"\n}")
+		body := []byte("{\n  \"frequency\": \"38028\",\n  \"preamble\": \"\",\n  \"irCode\": \"343,172,21,22,21,22,21,65,21,22,21,22,21,22,21,22,21,22,21,65,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,65,21,22,21,22,21,22,21,22,21,22,21,22,21,65,21,22,21,65,21,65,21,65,21,65,21,65,21,65,21,22,21,1673,343,86,21,3732\",\n \"repeat\": \"1\"\n}")
 
 		req, _ := http.NewRequest("POST", "http://itach/api/v1/irports/3/sendir", bytes.NewBuffer(body))
 
-		req.Header.Add("Content-Length", "171")
+		//req.Header.Add("Content-Length", "171")
 		req.Header.Add("Content-Type", "application/json")
 
 		resp, err := client.Do(req)
