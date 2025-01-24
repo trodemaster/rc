@@ -50,3 +50,13 @@ Flags:
 
 Use "rc [command] --help" for more information about a command.
 ```
+
+# LG C4 TV Support
+This tool now supports controlling an LG C4 TV using its IR codes. The following commands are available for the LG C4 TV:
+- Volume up
+- Volume down
+- Mute
+- Power on
+- Power off
+- HDMI 1
+- HDMI 2
