@@ -1,0 +1,81 @@
+# Previous list for an older remote/TV: https://gist.github.com/francis2110/8f69843dd57ae07dce80
+# Android app used to test some of the codes - SURE (proprietary but eh)
+repeat previous code->FFFFFFFF
+
+on-off->20DF10EF
+tv/rad->20DF0FF0
+input->20DFD02F
+settings->20DFC23D
+live zoom->20DFF50A
+subtitle->20DF9C63
+1->20DF8877
+2->20DF48B7
+3->20DFC837
+4->20DF28D7
+5->20DFA857
+6->20DF6897
+7->20DFE817
+8->20DF18E7
+9->20DF9867
+0->20DF08F7
+list->20DFCA35
+guide->20DFD52A
+vol +->20DF40BF
+vol- ->20DFC03F
+info->20DF55AA
+search->20DF1EE1
+mute->20DF906F
+prog./page +->20DF00FF
+prog./page -->20DF807F
+recent->20DFAD52
+home->20DF3EC1
+live menu->20DF7986
+back->20DF14EB
+exit->20DFDA25
+arrow up->20DF02FD
+arrow down->20DF827D
+arrow right->20DF609F
+arrow left->20DFE01F
+ok button->20DF22DD
+teletext->20DF04FB
+teletext options->20DF847B
+ad->20DF8976
+rec/*->20DFBD42
+stop->20DF8D72
+play->20DF0DF2
+pause->20DF5DA2
+rew->20DFF10E
+forward->20DF718E
+red button->20DF4EB1
+green button->20DF8E71
+yellow button->20DFC639
+blue button ->20DF8679
+
+# Below are buttons not present on the actual remote, if they are uncommented they actually work on 55UH605V
+POWER OFF->20DFA35C
+POWER ON->20DF23DC
+energy->20DFA956
+quick view->20DF58A7
+fav->20DF7887
+EZ ratio->20DF9E61
+EZ picture->20DFB24D
+EZ sleep->20DF708F
+3D->20DF3BC4 # Will just say 3D mode is unsupported on my TV
+EZ adjust->20DFFF00 # Password is 0413
+IN start->20DFDF20 # Password is 0413 # Here you can turn off the retarded dimming
+INPUT Antenna->20DF6B94
+INPUT Component 1->20DFFD02
+# INPUT av. mode->20DF0CF3 # Looks like an old code - moved to a different code on new TVs?
+INPUT AV->20DF5AA5
+INPUT HDMI1->20DF738C
+INPUT HDMI2->20DF33CC
+INPUT HDMI3->20DF9768
+# INPUT HDMI4->20DF5BA4 # TV doesn't have HDMI4
+Record list->20DF09F6
+Audio->20DF50AF
+SIMPLINK toggle->20DF7E81
+TV guide->20DF956A
+User guide->20DF5EA1
+TV/Radio toggle->20DFF00F
+# Netflix->20DF6A95 # webOS 4.x, replaces 'recent' button
+# Amazon->20DF3AC5 # webOS 4.x, replaces 'live menu' button
